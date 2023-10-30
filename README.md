@@ -10,6 +10,7 @@ Certifique-se de ter o Python instalado. Você pode instalar as dependências ne
 pip install numpy
 pip install opencv-python
 pip install dlib
+```
 
 Funcionalidades
 Detecção de Idade
