@@ -19,7 +19,7 @@ https://www.dropbox.com/s/dx0qvhhp5hbcx7z/colorization_release_v2.caffemodel?dl=
 
 ## Escolha da Versão a ser Utilizada
 
-Você pode utilizar uma versão GUI que permite buscar por imagens em seu dispositivo e possui uma experiencia mais visual ou também pode utilizar a versão CLI (necessário atribuir o caminho e nome correto as imagens: images1/pessoa.jpg (modelo de reconhecimento de idade) e images2/img1.jpg (modelo de colorir imagens)
+Você pode utilizar uma versão GUI que permite buscar por imagens em seu dispositivo e possui uma experiencia mais visual ou também pode utilizar a versão CLI (necessário atribuir o caminho e nome correto as imagens: images1/pessoa.jpg (modelo de reconhecimento de idade) e images2/img1.jpg (modelo de colorir imagens).
 
 
 # Funcionalidades
@@ -53,5 +53,14 @@ Essa funcionalidade permite adicionar cores a uma imagem em escala de cinza. Par
 ## Observações
 
 Lembre-se: se estiver utilizando a versão da linha de comando (CLI), é necessário ter as imagens a serem processadas nas pastas `images1` e `images2` antes de executar o programa.
+
+##Alunos
+
+| Nome                         | RA         |
+|------------------------------|------------|
+| Guilherme Cury Galli         | 19.00374-9 |
+| Matheus dos Santos Galbiati  | 19.01324-8 |
+| Fernando Laiser F Kon        | 19.01336-0 |
+| Fernando Oliveira de Souza   | 19.00617-9 |
 
 
