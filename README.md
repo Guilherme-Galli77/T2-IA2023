@@ -12,38 +12,46 @@ pip install opencv-python
 pip install dlib
 ```
 
-Funcionalidades
-Detecção de Idade
+## Download do Modelo (Apenas para a funcionalidade de colorir imagem):
 
-Essa funcionalidade permite detectar a idade das pessoas em uma imagem. Para utilizar:
+Você precisará baixar os dados pré-treinados deste local e colocá-los na pasta do modelo:
+https://www.dropbox.com/s/dx0qvhhp5hbcx7z/colorization_release_v2.caffemodel?dl=1
 
-    Execute o programa.
-    Selecione a opção 'Detecção de Idade' na interface.
-    Escolha uma imagem da janela de diálogo que será exibida.
-    Aguarde a detecção de rostos e visualização dos resultados.
+## Escolha da Versão a ser Utilizada
 
-Colorir Imagem
-
-Essa funcionalidade permite colorir uma imagem em escala de cinza. Para utilizar:
-
-    Execute o programa.
-    Selecione a opção 'Colorir Imagem' na interface.
-    Escolha uma imagem em escala de cinza da janela de diálogo que será exibida.
-    Aguarde o processo de colorização e visualização da imagem resultante.
-
-Como Executar
-
-    Baixe o código ou clone o repositório.
-    Instale as dependências necessárias.
-    Execute o arquivo Python main.py.
-    Use a interface para selecionar a ação desejada e escolher a imagem.
-
-Observações
-
-    Certifique-se de possuir imagens para teste na pasta images1 e images2.
-    O projeto utiliza Tkinter para a interface, OpenCV para o processamento de imagem e Dlib para detecção de rosto.
-
-Observação: Lembre-se de que se for utilizar a versão CLI é necessário ter as imagens a serem processadas nos diretórios images1 e images2 antes de executar o programa.
+Você pode utilizar uma versão GUI que permite buscar por imagens em seu dispositivo e possui uma experiencia mais visual ou também pode utilizar a versão CLI (necessário atribuir o caminho e nome correto as imagens: images1/pessoa.jpg (modelo de reconhecimento de idade) e images2/img1.jpg (modelo de colorir imagens)
 
 
-Este guia básico contém instruções para instalação, uso e funcionamento do programa. Por favor, ajuste-o conforme as necessidades do seu projeto.
+# Funcionalidades
+
+## Detecção de Idade
+
+Esta funcionalidade permite identificar a idade das pessoas em uma imagem. Para utilizar:
+
+1. Execute o programa.
+2. Selecione a opção 'Detecção de Idade' na interface.
+3. Escolha uma imagem na janela de diálogo exibida (apenas GUI).
+4. Aguarde a detecção de rostos e visualize os resultados.
+
+## Colorir Imagem
+
+Essa funcionalidade permite adicionar cores a uma imagem em escala de cinza. Para usar:
+
+1. Execute o programa.
+2. Selecione a opção 'Colorir Imagem' na interface.
+3. Escolha uma imagem em escala de cinza na janela de diálogo exibida (apenas GUI).
+4. Aguarde o processo de colorização e visualize a imagem resultante.
+
+## Como Executar
+
+1. Baixe o código ou clone o repositório.
+2. Instale as dependências necessárias.
+3. Instale o modelo (Apenas para a funcionalidade de colorir imagem).
+4. Execute o arquivo Python `main.py`.
+5. Use a interface para selecionar a ação desejada e escolher a imagem.
+
+## Observações
+
+Lembre-se: se estiver utilizando a versão da linha de comando (CLI), é necessário ter as imagens a serem processadas nas pastas `images1` e `images2` antes de executar o programa.
+
+
