@@ -54,7 +54,7 @@ Essa funcionalidade permite adicionar cores a uma imagem em escala de cinza. Par
 
 Lembre-se: se estiver utilizando a versão da linha de comando (CLI), é necessário ter as imagens a serem processadas nas pastas `images1` e `images2` antes de executar o programa.
 
-##Alunos
+# Alunos
 
 | Nome                         | RA         |
 |------------------------------|------------|
